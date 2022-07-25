@@ -37,6 +37,8 @@ public class SeleniumExecutorTest extends BaseSeleniumTest {
 
     WebElement btn = webDriver.findElement(By.id("generateLink()"));
 
+    btn.click();
+
     System.out.println(webDriver.getCurrentUrl());
 
     webDriver.close();
